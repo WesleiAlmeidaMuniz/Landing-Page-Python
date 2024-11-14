@@ -12,8 +12,9 @@ body {
     margin: 0;
 }
 
-
-
+.navbar-toggler{
+    background-color: white!important;
+}
 
 .pagina-inicial{
     height: 80vh
@@ -28,7 +29,7 @@ body {
 }
 
 .secao-publico{
-    width: 99vw;
+    width: 90vw;
 }
 
 .b-example-divider {
@@ -165,6 +166,7 @@ footer{
     align-items: center;
 }
 
+
 .botao-inicio {
     display: block;
     width:50px;
@@ -209,6 +211,12 @@ footer{
     .imagemCentral{
         margin-top: 100px;
     }
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
 
 
